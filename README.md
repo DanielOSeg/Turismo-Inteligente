@@ -43,7 +43,7 @@ Debido a la ruptura estructural del COVID-19, se entrenaron modelos con series c
 * Validación: RSME, MAPE y visual.
 
 ## Visualización (Power BI)
-El resultado final alimenta un cuadro de mando que permite filtrar predicciones y cruzar perfiles de viajeros.
+[El resultado final alimenta un cuadro de mando que permite filtrar predicciones y cruzar perfiles de viajeros](https://app.powerbi.com/view?r=eyJrIjoiYTgwZDY2YWEtMzI4NC00YzUyLWFkMzctN2Y1OWI4ODM4ODdiIiwidCI6ImFlYzc2MmU0LTNkNTQtNDk1ZS1hOGZlLTQyODdkY2U2ZmU2OSIsImMiOjh9).
 
 ---
 
