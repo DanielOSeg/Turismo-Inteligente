@@ -4,7 +4,7 @@
 [![DuckDB](https://img.shields.io/badge/DuckDB-In--Process%20SQL-yellow)](https://duckdb.org/)
 [![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-f2c811)](https://powerbi.microsoft.com/)
 
-Este repositorio contiene el código fuente, los notebooks de experimentación y los recursos del **Trabajo Final de Grado (TFG)** del Grado en Ciencia de Datos Aplicada de la **Universitat Oberta de Catalunya (UOC)**.
+Este repositorio contiene el código fuente, los notebooks de trabajo y modelado y los recursos del **Trabajo Final de Grado (TFG)** del Grado en Ciencia de Datos Aplicada de la **Universitat Oberta de Catalunya (UOC)**.
 
 **Autor:** Daniel Oñoro Segura  
 **Convocatoria:** Enero 2026  
@@ -49,7 +49,7 @@ Debido a la ruptura estructural del COVID-19, se entrenaron modelos con series c
 
 Instalación y Reproducibilidad
 
-Debido al tamaño de los datos originales del INE (33GB), el fichero original no se incluyen en este repositorio, sino la version de 48 MB tratada mediante el notebook.
+Debido al tamaño de los datos originales del INE (33GB), el fichero original no se incluyen en este repositorio, sino la version de 48 MB tratada mediante el notebook (comprimida en .rar).
 
 Para reproducir, descargar los notebooks y los datos en una misma carpeta y ejecutar los notebooks por el orden numérico.
 
