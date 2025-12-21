@@ -48,7 +48,10 @@ Debido a la ruptura estructural del COVID-19, se entrenaron modelos con series c
 ---
 
 Instalación y Reproducibilidad
-Debido al tamaño de los datos originales del INE (33GB), los ficheros crudos no se incluyen en este repositorio, sino la version de 48 MB tratada mediante el notebook.
+
+Debido al tamaño de los datos originales del INE (33GB), el fichero original no se incluyen en este repositorio, sino la version de 48 MB tratada mediante el notebook.
+
+Para reproducir, descargar los notebooks y los datos en una misma carpeta y ejecutar los notebooks por el orden numérico.
 
 ---
 
