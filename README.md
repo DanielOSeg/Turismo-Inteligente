@@ -1,9 +1,5 @@
 # Turismo Inteligente: Modelos de IA para Análisis y Visualización
 
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
-[![DuckDB](https://img.shields.io/badge/DuckDB-In--Process%20SQL-yellow)](https://duckdb.org/)
-[![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-f2c811)](https://powerbi.microsoft.com/)
-
 Este repositorio contiene el código fuente, los notebooks de trabajo y modelado y los recursos del **Trabajo Final de Grado (TFG)** del Grado en Ciencia de Datos Aplicada de la **Universitat Oberta de Catalunya (UOC)**.
 
 **Autor:** Daniel Oñoro Segura  
@@ -14,7 +10,7 @@ Este repositorio contiene el código fuente, los notebooks de trabajo y modelado
 
 ## Descripción del Proyecto
 
-El objetivo de este proyecto es transformar datos masivos y complejos del Instituto Nacional de Estadística (INE) —específicamente la *Encuesta de Turismo de Residentes*— en una herramienta de inteligencia turística accionable.
+El objetivo de este proyecto es desarrollar y evaluar un sistema de análisis y visualización basado en técnicas de ciencia de datos que permita caracterizar perfiles de turistas y realizar predicciones de flujos turísticos por comunidad autónoma de destino y país de residencia, integrando los resultados en un dashboard interactivo en Power BI para apoyar la toma de decisiones en el ámbito del turismo inteligente.
 
 El sistema implementa un flujo *End-to-End*:
 1.  **Ingeniería de Datos:** Procesamiento de ficheros de gran volumen (>30GB) utilizando **DuckDB** para superar las limitaciones de memoria local.
@@ -28,7 +24,7 @@ El sistema implementa un flujo *End-to-End*:
 ## Tecnologías y Metodología
 
 1. Procesamiento de Big Data (DuckDB)
-Se optó por una arquitectura OLAP en local mediante DuckDB para ingerir y filtrar el dataset de 239 millones de registros del INE, realizando agregaciones y limpiezas estructurales previas al modelado en Python.
+Se optó por la librería DuckDB en Python para ingerir, transformar y filtrar el dataset de 239 millones de registros del INE, realizando agregaciones y limpiezas estructurales previas al modelado en Python.
 
 2. Clustering (Segmentación)
 Se identificaron 12 perfiles de comportamiento turístico.
@@ -43,7 +39,7 @@ Debido a la ruptura estructural del COVID-19, se entrenaron modelos con series c
 * Validación: RSME, MAPE y visual.
 
 ## Visualización (Power BI)
-[El resultado final alimenta un cuadro de mando que permite filtrar predicciones y cruzar perfiles de viajeros](https://app.powerbi.com/view?r=eyJrIjoiYTgwZDY2YWEtMzI4NC00YzUyLWFkMzctN2Y1OWI4ODM4ODdiIiwidCI6ImFlYzc2MmU0LTNkNTQtNDk1ZS1hOGZlLTQyODdkY2U2ZmU2OSIsImMiOjh9).
+[El resultado final alimenta un cuadro de mando que permite filtrar predicciones y cruzar perfiles de viajeros accesible clicando este hipervínculo](https://app.powerbi.com/view?r=eyJrIjoiYTgwZDY2YWEtMzI4NC00YzUyLWFkMzctN2Y1OWI4ODM4ODdiIiwidCI6ImFlYzc2MmU0LTNkNTQtNDk1ZS1hOGZlLTQyODdkY2U2ZmU2OSIsImMiOjh9).
 
 ---
 
